@@ -5,9 +5,11 @@ import AppRoute from './router/appRoutes';
 
 function App() {
   return (
+    <>
     <Router>
       <AppRoute />
     </Router>
+    </>
   );
 }
 
