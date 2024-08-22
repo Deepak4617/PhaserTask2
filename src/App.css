@@ -1,0 +1,125 @@
+/* src/App.css
+#phaser-container {
+  width: 800px;
+  height: 600px;
+  border: 1px solid #000;
+  margin: 20px auto;
+}
+
+.session-list {
+  width: 300px;
+  float: right;
+} */
+
+/* .app {
+  text-align: center;
+  margin-top: 20px;
+} */
+
+.game-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.phaser-wrapper {
+  width: 300px;
+  height: 300px;
+  /* border: 3px solid black; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.button {
+  width: 94px;
+    height: 30px;
+    background-color: rgb(131, 217, 246);
+    display: flex;
+    /* color: black; */
+    /* border: 1px solid black; */
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    align-items: center;
+    justify-items: center;
+    padding-left: 18px;
+}
+
+.button.top-left {
+  top: 8rem;
+  left: 51rem;
+}
+
+.button.top-center {
+  top: 8rem;
+  right: 52rem;
+}
+
+.button.top-right {
+  top: 37%;
+  left: 30%;
+  transform: translateY(-50%);
+}
+
+.button.middle-left {
+  top: 36%;
+  right: 30%;
+  transform: translateY(-50%);
+}
+
+.button.middle-right {
+  top: 63%;
+  right: 30%;
+  transform: translateY(-50%);
+}
+
+.button.bottom-left {
+  bottom: 16rem;
+  left: 30%;
+}
+
+.button.bottom-center {
+  bottom: 7rem;
+  left: 44%;
+  transform: translateX(-50%);
+}
+
+.button.bottom-right {
+  bottom: 7rem;
+  right: 41rem;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-between; */
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.phaser-container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  /* border: 2px solid black; */
+}
