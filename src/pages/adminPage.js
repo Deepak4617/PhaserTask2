@@ -38,6 +38,7 @@ const AdminPage = () => {
   };
 
   return (
+    <>
     <div className="app">
       <div className="button-container">
         <button className="button top-left" onClick={() => handleButtonClick('Button1')}>Button 1</button>
@@ -54,6 +55,7 @@ const AdminPage = () => {
       </div>
       <ToastContainer />
     </div>
+    </>
   );
 };
 
