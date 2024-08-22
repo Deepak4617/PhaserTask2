@@ -90,6 +90,7 @@ const PhaserGame = ({ direction }) => {
   }, [direction]);
 
   return <div ref={phaserContainer}></div>;
+  
 };
 
 export default PhaserGame;
