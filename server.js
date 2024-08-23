@@ -39,13 +39,15 @@ const app = express();
 
 // Update CORS settings to include Netlify domain
 app.use(cors({
-  origin: 'https://deepak--phasertask1234.netlify.app',
+  origin: 'https://deepak--phasertasktwo.netlify.app',
+  // origin:'http://localhost:3000',
 }));
 
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: 'https://deepak--phasertask1234.netlify.app',
+    origin: 'https://deepak--phasertasktwo.netlify.app',
+    // origin:'http://localhost:3000',
     methods: ['GET', 'POST'],
   },
 });
