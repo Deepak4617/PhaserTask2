@@ -9,6 +9,7 @@ import {
 
 import PhaserGame from '../components/phaserGame';
 import io from 'socket.io-client';
+import { Link } from 'react-router-dom';  // Import Link component
 
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -35,7 +36,16 @@ const GuestPage = () => {
   }
 
   return (
+    <>
+     {/* <div 
+      style={{display:'flex', marginBottom:'4rem'}}
+      >
+      
+      </div> */}
     <div className="app">
+    <Link to="/admin" className="admin-link">
+        Go to Admin Page
+      </Link>
       <div className="button-container">
         <button className="button top-left" onClick={() => showToast()}>Button 1</button>
         <button className="button top-center" onClick={() => showToast()}>Button 2</button>
@@ -51,6 +61,7 @@ const GuestPage = () => {
       </div>
       <ToastContainer />
     </div>
+    </>
   );
 };
 

@@ -16,6 +16,16 @@
   margin-top: 20px;
 } */
 
+.admin-link {
+  display: block;
+  margin-bottom: -1rem;
+  font-size: 16px;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
 .game-container {
   position: relative;
   width: 300px;
